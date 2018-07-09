@@ -5,7 +5,8 @@ using System.Text;
 
 namespace MasterCrupt
 {
-    public class UI {
+    public class UI
+    {
         Application application = new Application(); 
         private string leeted;
         
