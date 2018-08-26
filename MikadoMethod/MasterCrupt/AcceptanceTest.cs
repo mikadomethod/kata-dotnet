@@ -14,7 +14,7 @@ namespace MasterCrupt
             UI ui = new UI();
             Assert.Equal(
                 expected: "Leeted: S3cr3t", 
-                actual: ui.EncryptMessage("Secret"));
+                actual: ui.LeetMessage("Secret"));
         }
     }
 }

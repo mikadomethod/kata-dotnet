@@ -10,7 +10,7 @@ namespace MasterCrupt
         Application application = new Application(); 
         private string leeted;
         
-        public string EncryptMessage(string unLeeted) 
+        public string LeetMessage(string unLeeted) 
         {
             application.Leet(unLeeted, this);
             return "Leeted: " + leeted;

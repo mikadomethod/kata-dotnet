@@ -15,7 +15,7 @@ namespace MasterCrupt
         static void Main(string[] args)
         {
             UI ui = new UI();
-            Console.WriteLine(ui.EncryptMessage(args[0]));
+            Console.WriteLine(ui.LeetMessage(args[0]));
         }
     }
 }
