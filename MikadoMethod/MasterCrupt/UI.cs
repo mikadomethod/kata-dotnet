@@ -7,18 +7,18 @@ namespace MasterCrupt
 {
     public class UI
     {
-        Application application = new Application(); 
-        private string leeted;
+        private Application _application = new Application(); 
+        private string _leeted;
         
         public string LeetMessage(string unLeeted) 
         {
-            application.Leet(unLeeted, this);
-            return "Leeted: " + leeted;
+            _application.Leet(unLeeted, this);
+            return "Leeted: " + _leeted;
         }
 
         public void SetLeeted(string leeted) 
         {
-            this.leeted = leeted;
+            _leeted = leeted;
         }
     }
 }
